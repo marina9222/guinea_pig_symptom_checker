@@ -1,0 +1,3426 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "checker",
+        "model": "symptom"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "checker",
+        "model": "disease"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dsy521pbnr3b651zexf4wjrapsvh4ltr",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBhEAsu3XsGMgODVA1NSrsy3l2bdKHb_977LxVpXWpcu8xxzOqsjDr8bkzpIW0D-U7tNuk0tWUeWW-K3mnX1ynL87K7fweVev3WRcqAIJyOgkHscHJQJAAmz8CSwVrviiV0RcQEYDAYipHEaL1x5NT7A_sIOCM:1vI8ON:dc_bLdR1tgyGeWeMapCxhbg_f1lTrViwJ-rJI0xuwkM",
+        "expire_date": "2025-11-23T16:35:51.072Z"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 36,
+    "fields": {
+        "name": "Sneezing"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 37,
+    "fields": {
+        "name": "Coughing"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 38,
+    "fields": {
+        "name": "Discharge from eyes"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 39,
+    "fields": {
+        "name": "Discharge from the nose"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 40,
+    "fields": {
+        "name": "Laboured breathing"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 41,
+    "fields": {
+        "name": "Lethargy"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 42,
+    "fields": {
+        "name": "Lack of appetite"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 43,
+    "fields": {
+        "name": "Swollen joints"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 44,
+    "fields": {
+        "name": "Weakness"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 45,
+    "fields": {
+        "name": "Rough coat"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 46,
+    "fields": {
+        "name": "Intense scratching"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 47,
+    "fields": {
+        "name": "Hair loss"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 48,
+    "fields": {
+        "name": "Restlessness and irritability"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 49,
+    "fields": {
+        "name": "Straining to urinate"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 50,
+    "fields": {
+        "name": "Blood in urine"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 51,
+    "fields": {
+        "name": "Hunched posture or signs of pain when pee"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 52,
+    "fields": {
+        "name": "Small, dry, or no droppings"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 53,
+    "fields": {
+        "name": "A bloated or hard abdomen"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 54,
+    "fields": {
+        "name": "Red, swollen, or sore feet"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 55,
+    "fields": {
+        "name": "Difficulty walking or standing"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 56,
+    "fields": {
+        "name": "Open sores or scabs on the feet"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 57,
+    "fields": {
+        "name": "Difficulty moving or reduced activity"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 58,
+    "fields": {
+        "name": "Fat deposits around the abdomen"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 59,
+    "fields": {
+        "name": "Panting or drooling"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 60,
+    "fields": {
+        "name": "Lethargy or collapse"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 61,
+    "fields": {
+        "name": "Bright red or pale gums"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 62,
+    "fields": {
+        "name": "Diarrhea"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 63,
+    "fields": {
+        "name": "Loose teeth"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 64,
+    "fields": {
+        "name": "Grinding teeth"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 65,
+    "fields": {
+        "name": "Sores on feet"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 66,
+    "fields": {
+        "name": "Swollen or red feet"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 67,
+    "fields": {
+        "name": "Swollen abdomen"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 68,
+    "fields": {
+        "name": "Scratching"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 69,
+    "fields": {
+        "name": "Flaky skin"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 70,
+    "fields": {
+        "name": "Tilting head or body"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 71,
+    "fields": {
+        "name": "Dragging feet"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 72,
+    "fields": {
+        "name": "Blood in poo"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 73,
+    "fields": {
+        "name": "Pain when poo"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 74,
+    "fields": {
+        "name": "Pain when pee"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 75,
+    "fields": {
+        "name": "Lump"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 76,
+    "fields": {
+        "name": "Open wound"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 77,
+    "fields": {
+        "name": "Discharge from ear"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 78,
+    "fields": {
+        "name": "Weight loss"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 79,
+    "fields": {
+        "name": "Hiding"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 80,
+    "fields": {
+        "name": "Wheezing"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 81,
+    "fields": {
+        "name": "Liquid from nipples"
+    }
+},
+{
+    "model": "checker.symptom",
+    "pk": 82,
+    "fields": {
+        "name": "Watery or crusty eyes/eye"
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 1,
+    "fields": {
+        "name": "Upper respiratory infection",
+        "description": "Guinea pigs are highly susceptible to respiratory infections. These infections often occur due to poor hygiene, sudden temperature changes, or exposure to drafts.\r\nPrevent infections by maintaining a clean cage, ensuring proper ventilation ( solid cage panels are not recommended for this reason ), and avoiding temperature extremes. If your guinea pig shows symptoms, consult a vet immediately, as untreated infections can worsen quickly.",
+        "info_link": "https://azeah.com/guinea-pigs/respiratory-infections-guinea-pigs",
+        "symptoms": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            78
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 2,
+    "fields": {
+        "name": "Scurvy (vitamin C deficiency)",
+        "description": "Guinea pigs are susceptible to vitamin C deficiency because they lack an enzyme that is involved in the synthesis of ascorbic acid (vitamin C) from glucose. Without this enzyme, they are dependent on getting all of their vitamin C requirements from their diet. In order to get enough vitamin C, guinea pigs require a daily dietary source of vitamin C. Lack of vitamin C results in a disease called scurvy. Vitamin C is essential for proper bone and collagen formation, blood clotting, and cell function.",
+        "info_link": "https://www.petmd.com/exotic/conditions/cardiovascular/c_ex_gp_vitamin_c_deficiency/p/3",
+        "symptoms": [
+            42,
+            43,
+            44,
+            45,
+            55,
+            64,
+            78
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 3,
+    "fields": {
+        "name": "Teeth problems",
+        "description": "Guinea pigs have open rooted teeth that grow continuously. Unfortunately, this makes them prone to overgrown teeth and malocclusions. While genetics, infection and trauma can make malocclusions more likely, diet is a major reason why guinea pigs often develop malocclusions.",
+        "info_link": "https://kb.rspca.org.au/knowledge-base/what-dental-problems-do-guinea-pigs-get/",
+        "symptoms": [
+            42,
+            48,
+            59,
+            61,
+            63,
+            78
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 4,
+    "fields": {
+        "name": "Bumble-foot",
+        "description": "Pododermatitis, commonly known as bumblefoot, is an inflammatory condition affecting a guinea pig’s feet. It is often caused by dirty cages, rough surfaces, or obesity.",
+        "info_link": "https://www.petmd.com/exotic/conditions/bumblefoot-in-guinea-pigs",
+        "symptoms": [
+            54,
+            55,
+            56
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 5,
+    "fields": {
+        "name": "Obesity",
+        "description": "Obesity is a growing problem for pet guinea pigs. It can lead to many health issues, including joint pain, heart disease, and bumblefoot.",
+        "info_link": "https://www.guineadad.com/blogs/news/what-to-do-when-your-guinea-pig-is-overweight?srsltid=AfmBOopSqy6_Dtp866RSIJlEIVZWhtHe_3iHmDsqSLlRjOXfxbP6w6On",
+        "symptoms": [
+            55,
+            57,
+            58
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 6,
+    "fields": {
+        "name": "Heatstroke",
+        "description": "Heatstroke occurs in animals when their body temperature rises too high. For guinea pigs, a normal body temperature ranges between 102-104°F (39-40°C). Once the temperature starts to go above 78°F (26°C), guinea pigs are at risk of suffering from heatstroke as the increased heat can make their body temperature go higher.",
+        "info_link": "https://kavee.com/blogs/the-piggy-blog/heatstroke-guinea-pigs?srsltid=AfmBOoqmwPC-VjuyvnRcXBhXRhjCkf1_UGrNp0vepIejvB-CdNcSidfi",
+        "symptoms": [
+            40,
+            41,
+            59,
+            60,
+            61
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 7,
+    "fields": {
+        "name": "Gastrointestinal (GI) Stasis",
+        "description": "GI stasis is a serious and potentially fatal condition in guinea pigs where the digestive system slows down or stops completely, causing them to stop eating, pooping, and become lethargic",
+        "info_link": "https://exoticdirect.co.uk/news/gut-stasis-guinea-pigs/",
+        "symptoms": [
+            42,
+            52,
+            60,
+            78,
+            79
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 8,
+    "fields": {
+        "name": "Bladder Stones and Urinary Issues",
+        "description": "Bladder stones, also known as uroliths, are a common problem in guinea pigs. These stones form in the urinary tract and can cause severe pain and difficulty urinating.",
+        "info_link": "https://azeah.com/guinea-pigs/bladder-stones-guinea-pigs",
+        "symptoms": [
+            49,
+            50,
+            51,
+            64,
+            74,
+            79
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 9,
+    "fields": {
+        "name": "Parasites",
+        "description": "Guinea pigs are susceptible to external parasites such as mites, lice, and fleas. These can cause discomfort and lead to more severe skin issues if untreated.",
+        "info_link": "https://www.petmd.com/exotic/slideshows/8-parasites-can-infect-your-small-animal",
+        "symptoms": [
+            45,
+            46,
+            47,
+            48,
+            68,
+            69,
+            76
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 10,
+    "fields": {
+        "name": "Heart disease",
+        "description": "Heart disease occurs relatively frequently in guinea pigs, it can be due to problems with the heart muscle, the heart valves or the pericardium (fibrous sac that surrounds the heart). Once significant clinical signs are apparent we say that the heart disease has progressed to heart failure.",
+        "info_link": "https://www.theguineapigvet.co.uk/post/my-guinea-pig-is-breathing-heavy-let-s-talk-about-heart-disease",
+        "symptoms": [
+            40,
+            41,
+            53,
+            57,
+            59,
+            60,
+            67,
+            80
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 11,
+    "fields": {
+        "name": "Possible Cancer or tumour",
+        "description": "Tumors in guinea pigs are relatively uncommon, but they have been seen in pigs as young as four months. It is more common for tumors to appear after age three. Among older guinea pigs, it’s estimated about 30% will develop tumors.\r\nThe most common sites for tumors in guinea pigs include their lungs, skin, mammary glands, ovaries, uterus, and blood/lymphatic systems. Intestinal, bladder, bone, muscle, adrenal gland, and liver tumors are rare.",
+        "info_link": "https://www.petmd.com/exotic/conditions/skin/c_ex_gp_cancers_tumors",
+        "symptoms": [
+            41,
+            42,
+            57,
+            72,
+            75,
+            76,
+            78
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 12,
+    "fields": {
+        "name": "Abscess",
+        "description": "Abscesses are a result of infection and can form anywhere on a guinea pig’s body.  They start as inflamed areas that are swollen, red, warm, and painful. As they progress, these inflamed areas become filled with pus.",
+        "info_link": "https://www.guineapiggles.co.uk/abscesses/?srsltid=AfmBOopUOw4sAa5WOS4RoQVtTLHM77Kysbc3EbtOcoVrk-4iCmOT8UY5",
+        "symptoms": [
+            43,
+            45,
+            46,
+            47,
+            56,
+            66,
+            75,
+            76
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 13,
+    "fields": {
+        "name": "Stroke",
+        "description": "A guinea pig stroke is a sudden neurological event requiring immediate veterinary attention.",
+        "info_link": "https://www.theguineapigforum.co.uk/threads/aftercare-for-a-guinea-pig-after-a-stroke-part-1.163892/",
+        "symptoms": [
+            40,
+            41,
+            44,
+            55,
+            57,
+            59,
+            60,
+            70
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 14,
+    "fields": {
+        "name": "Uterus or mammary gland tumours",
+        "description": "Uterine and mammary tumors are common in guinea pigs, particularly in older, unspayed females. Uterine tumors can cause abdominal distention and bleeding, while mammary tumors may present as lumps with discharge. Diagnosis involves imaging, and the primary treatment is surgical removal of the affected tissue.",
+        "info_link": "https://www.petmd.com/exotic/conditions/skin/c_ex_gp_cancers_tumors",
+        "symptoms": [
+            41,
+            42,
+            45,
+            53,
+            67,
+            75,
+            76,
+            78,
+            81
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 15,
+    "fields": {
+        "name": "Eye injury/infection",
+        "description": "A guinea pig's eye infection, or conjunctivitis, is often caused by bacteria, allergies, or a foreign object like a piece of hay, and presents with symptoms such as redness, swelling, discharge, and squinting.",
+        "info_link": "https://www.guineapiggles.co.uk/eyes/?srsltid=AfmBOoo1QxZ_DhyjRSRh6XAZR3DRxMh_fTY8u1RX06vfA3whuL8YQRSd",
+        "symptoms": [
+            38,
+            82
+        ]
+    }
+},
+{
+    "model": "checker.disease",
+    "pk": 16,
+    "fields": {
+        "name": "Ear infection",
+        "description": "Guinea pig ear infections can be caused by bacteria or yeast, often spreading from upper respiratory infections, and present with symptoms like head tilting, loss of balance, discharge from the ear, and pain.",
+        "info_link": "https://www.petmd.com/exotic/conditions/ears/c_ex_gp_ear_infections",
+        "symptoms": [
+            46,
+            77
+        ]
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add symptom",
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "codename": "add_symptom"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change symptom",
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "codename": "change_symptom"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete symptom",
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "codename": "delete_symptom"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view symptom",
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "codename": "view_symptom"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add disease",
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "codename": "add_disease"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change disease",
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "codename": "change_disease"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete disease",
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "codename": "delete_disease"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view disease",
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "codename": "view_disease"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$xzBcGudcYQBQjTGgmFwRus$wA4Ab1bPhxeVUuklTRRkH7TDbaggRRP84dnRGFwmrN8=",
+        "last_login": "2025-11-09T16:35:51.068Z",
+        "is_superuser": true,
+        "username": "kmm39",
+        "first_name": "",
+        "last_name": "",
+        "email": "kmm39@abv.bg",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-11-09T16:30:36.631Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-11-09T16:54:13.769Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "1",
+        "object_repr": "Wheezing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-11-09T16:54:22.150Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "2",
+        "object_repr": "Trouble breathing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-11-09T16:54:33.951Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "3",
+        "object_repr": "Lethargy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-11-09T16:54:41.052Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "4",
+        "object_repr": "Losing weight",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-11-09T16:54:48.523Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "5",
+        "object_repr": "Sneezing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-11-09T16:55:10.660Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "6",
+        "object_repr": "Runny nose",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-11-09T16:55:25.000Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "7",
+        "object_repr": "Crusty eyes/eye",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-11-09T16:55:32.883Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "8",
+        "object_repr": "Watering eye/eyes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-11-09T16:56:07.979Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "9",
+        "object_repr": "not eating",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-11-09T16:56:12.669Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "10",
+        "object_repr": "not drinking water",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-11-09T16:56:23.453Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "11",
+        "object_repr": "hiding",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-11-09T16:56:43.975Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "12",
+        "object_repr": "small droplets",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-11-09T16:56:52.303Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "13",
+        "object_repr": "mushy droplets",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-11-09T16:57:24.533Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "14",
+        "object_repr": "diarrhea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-11-09T16:57:37.667Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "15",
+        "object_repr": "blood in urine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-11-09T16:57:44.104Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "16",
+        "object_repr": "dark urine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-11-09T16:57:51.645Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "17",
+        "object_repr": "hair loss",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-11-09T16:58:01.964Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "18",
+        "object_repr": "lump",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-11-09T16:58:12.182Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "19",
+        "object_repr": "flaky skin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-11-09T16:58:28.734Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "20",
+        "object_repr": "dragging back legs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-11-09T16:58:39.154Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "21",
+        "object_repr": "teeth chattering",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-11-09T16:58:49.582Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "22",
+        "object_repr": "liquid from ear",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-11-09T16:59:05.392Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "23",
+        "object_repr": "impaction",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-11-09T16:59:48.756Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "24",
+        "object_repr": "swollen feet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-11-09T17:00:30.178Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "25",
+        "object_repr": "aggression",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-11-09T17:00:35.890Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "26",
+        "object_repr": "thickened nipples",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-11-09T17:00:42.703Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "27",
+        "object_repr": "liquid from nipples",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-11-09T17:00:50.099Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "28",
+        "object_repr": "bloat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-11-09T17:00:55.461Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "29",
+        "object_repr": "pain when pee",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-11-09T17:01:00.128Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "30",
+        "object_repr": "pain when poo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-11-09T17:01:57.764Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "31",
+        "object_repr": "red skin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-11-09T17:02:04.973Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "32",
+        "object_repr": "itchy skin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-11-09T17:03:10.231Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "33",
+        "object_repr": "open wound",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-11-09T17:03:41.469Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "34",
+        "object_repr": "scratching",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-11-09T17:04:54.630Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "35",
+        "object_repr": "Breath",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "35",
+        "object_repr": "Breath",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "34",
+        "object_repr": "scratching",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "33",
+        "object_repr": "open wound",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "32",
+        "object_repr": "itchy skin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "31",
+        "object_repr": "red skin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "30",
+        "object_repr": "pain when poo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "29",
+        "object_repr": "pain when pee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "28",
+        "object_repr": "bloat",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "27",
+        "object_repr": "liquid from nipples",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "26",
+        "object_repr": "thickened nipples",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "25",
+        "object_repr": "aggression",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "24",
+        "object_repr": "swollen feet",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "23",
+        "object_repr": "impaction",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "22",
+        "object_repr": "liquid from ear",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "21",
+        "object_repr": "teeth chattering",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "20",
+        "object_repr": "dragging back legs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "19",
+        "object_repr": "flaky skin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "18",
+        "object_repr": "lump",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "17",
+        "object_repr": "hair loss",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "16",
+        "object_repr": "dark urine",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "15",
+        "object_repr": "blood in urine",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "14",
+        "object_repr": "diarrhea",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "13",
+        "object_repr": "mushy droplets",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "12",
+        "object_repr": "small droplets",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "11",
+        "object_repr": "hiding",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "10",
+        "object_repr": "not drinking water",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "9",
+        "object_repr": "not eating",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "8",
+        "object_repr": "Watering eye/eyes",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "7",
+        "object_repr": "Crusty eyes/eye",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "6",
+        "object_repr": "Runny nose",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "5",
+        "object_repr": "Sneezing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "4",
+        "object_repr": "Losing weight",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "3",
+        "object_repr": "Lethargy",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.067Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "2",
+        "object_repr": "Trouble breathing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2025-11-09T17:07:14.068Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "1",
+        "object_repr": "Wheezing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2025-11-09T17:07:23.206Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "36",
+        "object_repr": "Sneezing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2025-11-09T17:07:27.827Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "37",
+        "object_repr": "Coughing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2025-11-09T17:07:37.594Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "38",
+        "object_repr": "Discharge from eyes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2025-11-09T17:07:47.777Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "39",
+        "object_repr": "Discharge from the nose",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2025-11-09T17:07:55.610Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "40",
+        "object_repr": "Laboured breathing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2025-11-09T17:08:01.856Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "41",
+        "object_repr": "Lethargy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2025-11-09T17:08:06.829Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "42",
+        "object_repr": "Lack of appetite",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2025-11-09T17:08:15.080Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "43",
+        "object_repr": "Swollen joints",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2025-11-09T17:08:20.342Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "44",
+        "object_repr": "Weakness",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2025-11-09T17:08:29.368Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "45",
+        "object_repr": "Rough coat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2025-11-09T17:08:38.528Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "46",
+        "object_repr": "Intense scratching",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2025-11-09T17:08:44.434Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "47",
+        "object_repr": "Hair loss",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2025-11-09T17:08:53.134Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "48",
+        "object_repr": "Restlessness and irritability",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2025-11-09T17:09:00.810Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "49",
+        "object_repr": "Straining to urinate",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2025-11-09T17:09:04.543Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "50",
+        "object_repr": "Blood in urine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2025-11-09T17:09:22.042Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "51",
+        "object_repr": "Hunched posture or signs of pain when pee",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2025-11-09T17:09:35.056Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "52",
+        "object_repr": "Small, dry, or no droppings",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2025-11-09T17:09:41.560Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "53",
+        "object_repr": "A bloated or hard abdomen",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2025-11-09T17:10:52.211Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "54",
+        "object_repr": "Red, swollen, or sore feet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2025-11-09T17:10:59.455Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "55",
+        "object_repr": "Difficulty walking or standing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2025-11-09T17:11:06.590Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "56",
+        "object_repr": "Open sores or scabs on the feet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2025-11-09T17:11:16.888Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "57",
+        "object_repr": "Difficulty moving or reduced activity",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2025-11-09T17:11:24.038Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "58",
+        "object_repr": "Fat deposits around the abdomen",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2025-11-09T17:11:30.496Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "59",
+        "object_repr": "Panting or drooling",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2025-11-09T17:11:36.276Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "60",
+        "object_repr": "Lethargy or collapse",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2025-11-09T17:11:42.423Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "61",
+        "object_repr": "Bright red or pale gums",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2025-11-09T17:13:39.624Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "62",
+        "object_repr": "Diarrhea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2025-11-09T17:13:58.807Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "63",
+        "object_repr": "Loose teeth",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2025-11-09T17:14:10.894Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "64",
+        "object_repr": "Grinding teeth",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2025-11-09T17:14:34.789Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "65",
+        "object_repr": "Sores on feet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2025-11-09T17:14:47.988Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "66",
+        "object_repr": "Swollen or red feet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2025-11-09T17:15:24.564Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "67",
+        "object_repr": "Swollen abdomen",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2025-11-09T17:16:00.598Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "68",
+        "object_repr": "Scratching",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2025-11-09T17:16:08.782Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "69",
+        "object_repr": "Flaky skin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2025-11-09T17:16:27.995Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "70",
+        "object_repr": "Tilting head or body",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2025-11-09T17:16:38.214Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "71",
+        "object_repr": "Dragging feet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2025-11-09T17:16:44.763Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "72",
+        "object_repr": "Blood in poo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2025-11-09T17:16:50.182Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "73",
+        "object_repr": "Pain when poo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2025-11-09T17:16:54.084Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "74",
+        "object_repr": "Pain when pee",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2025-11-09T17:17:02.316Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "75",
+        "object_repr": "Lump",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2025-11-09T17:17:16.267Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "76",
+        "object_repr": "Open wound",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2025-11-09T17:17:26.413Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "77",
+        "object_repr": "Discharge from ear",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2025-11-09T17:17:38.649Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "78",
+        "object_repr": "Weight loss",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2025-11-09T17:18:25.538Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "79",
+        "object_repr": "Hiding",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2025-11-09T17:20:30.135Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "1",
+        "object_repr": "Upper respiratory infection",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2025-11-09T17:22:04.464Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "2",
+        "object_repr": "Scurvy (vitamin C deficiency)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2025-11-09T17:27:29.937Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "3",
+        "object_repr": "Teeth problems",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2025-11-09T17:28:50.916Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "4",
+        "object_repr": "Bumble-foot",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2025-11-09T17:29:37.997Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "5",
+        "object_repr": "Obesity",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2025-11-09T17:30:54.004Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "6",
+        "object_repr": "Heatstroke",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2025-11-09T17:32:26.467Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "7",
+        "object_repr": "Gastrointestinal (GI) Stasis",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2025-11-09T17:34:00.567Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "8",
+        "object_repr": "Bladder Stones and Urinary Issues",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2025-11-09T17:35:20.081Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "9",
+        "object_repr": "Parasites",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2025-11-09T17:36:25.949Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "80",
+        "object_repr": "Wheezing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2025-11-09T17:37:25.649Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "10",
+        "object_repr": "Heart disease",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2025-11-09T17:39:06.347Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "11",
+        "object_repr": "Possible Cancer or tumour",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2025-11-09T17:40:33.413Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "12",
+        "object_repr": "Abscess",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2025-11-09T17:41:56.885Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "13",
+        "object_repr": "Stroke",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2025-11-09T17:44:20.459Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "81",
+        "object_repr": "Liquid from nipples",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2025-11-09T17:44:40.484Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "14",
+        "object_repr": "Uterus or mammary gland tumours",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2025-11-09T17:46:12.517Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "symptom"
+        ],
+        "object_id": "82",
+        "object_repr": "Watery or crusty eyes/eye",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2025-11-09T17:47:09.931Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "15",
+        "object_repr": "Eye injury/infection",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2025-11-09T17:47:57.247Z",
+        "user": [
+            "kmm39"
+        ],
+        "content_type": [
+            "checker",
+            "disease"
+        ],
+        "object_id": "16",
+        "object_repr": "Ear infection",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
