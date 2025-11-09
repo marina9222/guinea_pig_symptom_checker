@@ -1,11 +1,20 @@
 from django.shortcuts import render
 from .models import Disease, Symptom
+from django.core.management import call_command
 
+
+from django.core.management import call_command
 
 def home(request):
-    diseases = Disease.objects.prefetch_related('symptoms')
+    # Temporary migration fix for Render
+    try:
+        call_command("migrate", interactive=False)
+    except Exception as e:
+        print("Migration error:", e)
+
     symptoms = Symptom.objects.all()
-    results = None
+    results = []
+    diseases = Disease.objects.prefetch_related('symptoms')
 
     if request.method == 'POST':
         selected_symptom_ids = request.POST.getlist('symptoms')
