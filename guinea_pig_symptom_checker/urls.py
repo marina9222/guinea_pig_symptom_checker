@@ -23,6 +23,6 @@ from checker.views import load_data
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', views.home, name='home'),
-    path("load-data/", load_data),
+ 
 
 ]

@@ -1,17 +1,6 @@
 from django.shortcuts import render
 from .models import Disease, Symptom
 from django.core.management import call_command
-from django.http import HttpResponse
-
-def load_data(request):
-    try:
-        call_command("loaddata", "data.json")
-        return HttpResponse("Data successfully loaded!")
-    except Exception as e:
-        return HttpResponse(f"Error loading data: {e}")
-
-
-
 
 
 
