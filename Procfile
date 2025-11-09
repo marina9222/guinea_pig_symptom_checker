@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn guinea_pig_symptom_checker.wsgi
+web: python manage.py migrate --noinput && gunicorn guinea_pig_symptom_checker.wsgi
