@@ -30,10 +30,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key')
 DEBUG = os.environ.get("DEBUG", "0") == "1"
 ALLOWED_HOSTS = ['guinea-pig-symptom-checker.onrender.com']
 
-
-
-
-
 # Application definition
 
 INSTALLED_APPS = [
