@@ -29,15 +29,15 @@
         {% csrf_token %}
         <div class="row mb-3">
           <div class="col-md-4">
-            <label class="form-label">Name</label>
+            <label class="form-label fw-bold">Name</label>
             <input type="text" name="name" class="form-control" required />
           </div>
           <div class="col-md-4">
-            <label class="form-label">Age (years)</label>
+            <label class="form-label fw-bold">Age (years)</label>
             <input type="number" name="age" class="form-control" required />
           </div>
           <div class="col-md-4">
-            <label class="form-label">Gender</label>
+            <label class="form-label fw-bold">Gender</label>
             <select name="gender" class="form-select" required>
               <option value="">Select...</option>
               <option value="boar">Boar</option>
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="text-center mt-4 mb-4 flex ">
-          <button type="submit" class="btn mt-4 w-50 button-custom">
+          <button type="submit" class="btn mt-5 button-custom">
             Check Results
           </button>
         </div>
