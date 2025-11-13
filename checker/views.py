@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from .models import Disease, Symptom
+from .models import Disease, Symptom, Feedback
 from django.core.management import call_command
+from django.shortcuts import redirect
 
 
 
@@ -43,3 +44,17 @@ def home(request):
         results = disease_scores[:3]
 
     return render(request, 'checker/home.html', {'symptoms': symptoms, 'results': results})
+
+
+def submit_feedback(request):
+    if request.method == "POST":
+        rating = request.POST.get("rating")
+        message = request.POST.get("message")
+
+        Feedback.objects.create(
+            rating=rating,
+            message=message
+        )
+
+    
+        return redirect("/?feedback_submitted=1")
