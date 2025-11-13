@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import Disease, Symptom, Feedback
 from django.core.management import call_command
 from django.shortcuts import redirect
+from django.contrib import messages
 
 
 
@@ -56,5 +57,6 @@ def submit_feedback(request):
             message=message
         )
 
-    
-        return redirect("/?feedback_submitted=1")
+        messages.success(request, "Thank you for your feedback! ❤️")
+
+        return redirect('home')

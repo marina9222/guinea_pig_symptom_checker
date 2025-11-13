@@ -25,10 +25,12 @@
         Guinea Pig Symptom Checker
       </h1>
       </div>
-       {% if request.GET.feedback_submitted %}
-  <div class="alert alert-success text-center mt-3 w-100 w-md-75 w-lg-50 mx-auto">
-    Thank you for your feedback!❤️
-  </div>
+     {% if messages %}
+  {% for message in messages %}
+    <div class="alert alert-success text-center mt-3 w-50 mx-auto">
+      {{ message }}
+    </div>
+  {% endfor %}
 {% endif %}
 
       <form method="post" class="card p-5 shadow-sm">
