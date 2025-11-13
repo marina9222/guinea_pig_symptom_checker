@@ -11,12 +11,41 @@ body {
     background-color: #faecd2;
 }
 
-h1 {
+h1,h2{
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 35px;
 }
 
+p {
+    font-family: "Montserrat",sans-serif;
+}
+
 .form-check-label {
     font-family: "Montserrat" , sans-serif;
+}
+
+.result-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confidence-text {
+  font-weight: 500;
+}
+
+
+.button-custom {
+
+    background-color: #AA9261;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
+
+.button-custom:hover {
+  
+    background-color: #d1c5ae;
 }

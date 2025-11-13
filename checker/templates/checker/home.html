@@ -1,78 +1,125 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guinea Pig Symptom Checker 🐹</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{% static 'checker/css/style.css' %}">
-
-</head>
-<body>
-  <div class="container py-5">
-   <h1 class="text-center mb-4">
-  <img src="{% static 'checker/guinea-pig-logo.png' %}" alt="Guinea Pig Logo" width="90" class="me-2">
-  Guinea Pig Symptom Checker
-</h1>
-
-    <form method="post" class="card p-5 shadow-sm">
-      {% csrf_token %}
-      <div class="row mb-3">
-        <div class="col-md-4">
-          <label class="form-label">Name</label>
-          <input type="text" name="name" class="form-control" required>
-        </div>
-        <div class="col-md-4">
-          <label class="form-label">Age (years)</label>
-          <input type="number" name="age" class="form-control" required>
-        </div>
-        <div class="col-md-4">
-          <label class="form-label">Gender</label>
-          <select name="gender" class="form-select" required>
-            <option value="">Select...</option>
-            <option value="boar">Boar</option>
-            <option value="sow">Sow</option>
-          </select>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guinea Pig Symptom Checker 🐹</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'checker/css/style.css' %}" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center mb-4">
+        <img
+          src="{% static 'checker/guinea-pig-logo.png' %}"
+          alt="Guinea Pig Logo"
+          width="90"
+          class="logo-img mb-2 mb-lg-0"
+        />
+      <h1 class="text-center mb-4 ms-lg-3 mt-2 mt-lg-0">
+        Guinea Pig Symptom Checker
+      </h1>
       </div>
 
-      <h5 class="mt-4">Select symptoms:</h5>
-      <div class="row row-cols-2">
-        {% for symptom in symptoms %}
-          <div class="form-check col">
-            <input class="form-check-input" type="checkbox" name="symptoms" value="{{ symptom.id }}" id="s{{ symptom.id }}">
-            <label class="form-check-label" for="s{{ symptom.id }}">{{ symptom.name }}</label>
+      <form method="post" class="card p-5 shadow-sm">
+        {% csrf_token %}
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <label class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" required />
           </div>
-        {% endfor %}
-        <div class="form-check col">
-          <input class="form-check-input" type="checkbox" name="none" id="none">
-          <label class="form-check-label" for="none">No symptoms</label>
+          <div class="col-md-4">
+            <label class="form-label">Age (years)</label>
+            <input type="number" name="age" class="form-control" required />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Gender</label>
+            <select name="gender" class="form-select" required>
+              <option value="">Select...</option>
+              <option value="boar">Boar</option>
+              <option value="sow">Sow</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="text-center mt-4 mb-4">
-      <button type="submit" class="btn btn-primary mt-4 w-50">Check Results</button>
-      </div>
-    </form>
 
-    {% if results %}
-      <div class="card mt-4 shadow-sm">
-        <div class="card-body">
-          <h4>Possible Diseases:</h4>
-          <ol>
-            {% for disease, score in results %}
-              <li>
-                <strong>{{ disease.name }}</strong> (Score: {{ score }})<br>
-                {{ disease.description|truncatewords:25 }}<br>
-                {% if disease.info_link %}
-                  <a href="{{ disease.info_link }}" target="_blank">Read more →</a>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ol>
+        <h5 class="mt-4">Select symptoms:</h5>
+        <div class="row row-cols-2">
+          {% for symptom in symptoms %}
+          <div class="form-check col">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="{{ symptom.id }}"
+              id="s{{ symptom.id }}"
+            />
+            <label class="form-check-label" for="s{{ symptom.id }}"
+              >{{ symptom.name }}</label
+            >
+          </div>
+          {% endfor %}
+          <div class="form-check col">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="none"
+              id="none"
+            />
+            <label class="form-check-label" for="none">No symptoms</label>
+          </div>
         </div>
+        <div class="text-center mt-4 mb-4 flex ">
+          <button type="submit" class="btn mt-4 w-50 button-custom">
+            Check Results
+          </button>
+        </div>
+      </form>
+
+      {% if results %}
+
+     <div class="results mt-5">
+    <h2 class="text-center mb-4">Possible Conditions</h2>
+
+    {% for disease, score in results %}
+      <div class="card mb-3 result-card">
+        <div class="card-body text-center">
+          {% if forloop.counter == 1 %}
+            <h5 class="card-title text-success fw-bold mt-4">
+              🥇 Most Likely: {{ disease.name }}
+            </h5>
+          {% elif forloop.counter == 2 %}
+            <h5 class="card-title text-warning fw-bold mt-4">
+              🥈 Second Likely: {{ disease.name }}
+            </h5>
+          {% else %}
+            <h5 class="card-title text-danger fw-bold mt-4">
+              🥉 Less Likely: {{ disease.name }}
+            </h5>
+          {% endif %}
+
+          <p class="card-text mt-5">{{ disease.description|truncatechars:200 }}</p>
+
+          {% if disease.info_link %}
+            <a href="{{ disease.info_link }}" target="_blank" class="btn fw-bold text-decoration-underline btn-sm mt-4">
+              Read more about {{ disease.name }}
+            </a>
+          {% endif %}
+
+          <p class="mt-4 confidence-text">
+            Confidence: 
+            {{ score }}/10
+          </p>
+        </div>
+        <div class="d-flex justify-content-center mt-4 mb-4">
+          <a href="{% url 'home' %}" class="btn mt-4 button-custom">Try Again</a>
+          </div>
       </div>
+    {% endfor %}
     {% endif %}
-  </div>
-</body>
+    </div>
+  </body>
 </html>
