@@ -1,4 +1,5 @@
 {% load static %}
+{% now "Y" as current_year %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,6 +25,11 @@
         Guinea Pig Symptom Checker
       </h1>
       </div>
+       {% if request.GET.feedback_submitted %}
+  <div class="alert alert-success text-center mt-3 w-100 w-md-75 w-lg-50 mx-auto">
+    Thank you for your feedback!❤️
+  </div>
+{% endif %}
 
       <form method="post" class="card p-5 shadow-sm">
         {% csrf_token %}
@@ -72,7 +78,7 @@
             <label class="form-check-label" for="none">No symptoms</label>
           </div>
         </div>
-        <div class="text-center mt-4 mb-4 flex ">
+        <div class="text-center mt-4 mb-4 flex">
           <button type="submit" class="btn mt-5 button-custom">
             Check Results
           </button>
@@ -121,5 +127,43 @@
     {% endfor %}
     {% endif %}
     </div>
+    <div id="feedback-form" class="container mt-5 mb-5">
+  <h4 class="text-center mb-3">Feedback Form</h4>
+
+  <form method="POST" action="{% url 'submit_feedback' %}">
+    {% csrf_token %}
+
+    <div class="mb-3">
+      <label class="form-label">How helpful was the app?</label>
+      <select name="rating" class="form-select" required>
+        <option value="">Select...</option>
+        <option value="1">⭐ 1 - Not helpful</option>
+        <option value="2">⭐⭐ 2</option>
+        <option value="3">⭐⭐⭐ 3 - It was okay</option>
+        <option value="4">⭐⭐⭐⭐ 4</option>
+        <option value="5">⭐⭐⭐⭐⭐ 5 - Very helpful!</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Your Feedback (optional)</label>
+      <textarea name="message" class="form-control" rows="3" placeholder="Tell me what you liked or what I can improve!"></textarea>
+    </div>
+
+    <button type="submit" class="btn button-custom d-block mx-auto">Submit Feedback</button>
+  </form>
+</div>
+    <footer class="mt-5 py-4 bg-light text-center border-top">
+  <h5 class="mb-3">Contact & Feedback</h5>
+
+  <p class="text-muted mb-2">Have ideas or found this tool helpful?</p>
+
+   <p class="text-muted mb-2">Sumbit your feedback from the form above.</p>
+
+  <p class="mt-3 small text-secondary">
+    © {{ now.year }} Guinea Pig Symptom Checker — Made by Marina with 🐹❤️
+  </p>
+</footer>
+
   </body>
 </html>
