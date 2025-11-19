@@ -3,14 +3,6 @@ from .models import Disease, Symptom, Feedback
 from django.core.management import call_command
 from django.shortcuts import redirect
 from django.contrib import messages
-from django.http import HttpResponse
-
-def load_checker_data(request):
-    try:
-        call_command("loaddata", "checker_data.json")
-        return HttpResponse("Checker data loaded into Neon!")
-    except Exception as e:
-        return HttpResponse(f"Error loading data: {e}")
 
 
 def home(request):

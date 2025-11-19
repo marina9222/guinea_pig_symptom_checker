@@ -18,7 +18,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from checker import views
-from checker.views import home, submit_feedback,load_checker_data
+from checker.views import home, submit_feedback
 
 
 
@@ -27,6 +27,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', views.home, name='home'),
     path("submit-feedback/", submit_feedback, name="submit_feedback"),
-    path('load-checker-data/', load_checker_data),
     
 ]
