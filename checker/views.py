@@ -3,7 +3,12 @@ from .models import Disease, Symptom, Feedback
 from django.core.management import call_command
 from django.shortcuts import redirect
 from django.contrib import messages
+from django.http import HttpResponse
 
+
+def run_migrations(request):
+    call_command("migrate")
+    return HttpResponse("Migrations done.")
 
 
 def home(request):
