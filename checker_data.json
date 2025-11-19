@@ -1,0 +1,599 @@
+[
+{
+  "model": "checker.symptom",
+  "pk": 36,
+  "fields": {
+    "name": "Sneezing"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 37,
+  "fields": {
+    "name": "Coughing"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 38,
+  "fields": {
+    "name": "Discharge from eyes"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 39,
+  "fields": {
+    "name": "Discharge from the nose"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 40,
+  "fields": {
+    "name": "Laboured breathing"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 41,
+  "fields": {
+    "name": "Lethargy"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 42,
+  "fields": {
+    "name": "Lack of appetite"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 43,
+  "fields": {
+    "name": "Swollen joints"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 44,
+  "fields": {
+    "name": "Weakness"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 45,
+  "fields": {
+    "name": "Rough coat"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 46,
+  "fields": {
+    "name": "Intense scratching"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 47,
+  "fields": {
+    "name": "Hair loss"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 48,
+  "fields": {
+    "name": "Restlessness and irritability"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 49,
+  "fields": {
+    "name": "Straining to urinate"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 50,
+  "fields": {
+    "name": "Blood in urine"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 51,
+  "fields": {
+    "name": "Hunched posture or signs of pain when pee"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 52,
+  "fields": {
+    "name": "Small, dry, or no droppings"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 53,
+  "fields": {
+    "name": "A bloated or hard abdomen"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 54,
+  "fields": {
+    "name": "Red, swollen, or sore feet"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 55,
+  "fields": {
+    "name": "Difficulty walking or standing"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 56,
+  "fields": {
+    "name": "Open sores or scabs on the feet"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 57,
+  "fields": {
+    "name": "Difficulty moving or reduced activity"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 58,
+  "fields": {
+    "name": "Fat deposits around the abdomen"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 59,
+  "fields": {
+    "name": "Panting or drooling"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 60,
+  "fields": {
+    "name": "Lethargy or collapse"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 61,
+  "fields": {
+    "name": "Bright red or pale gums"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 62,
+  "fields": {
+    "name": "Diarrhea"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 63,
+  "fields": {
+    "name": "Loose teeth"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 64,
+  "fields": {
+    "name": "Grinding teeth"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 65,
+  "fields": {
+    "name": "Sores on feet"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 66,
+  "fields": {
+    "name": "Swollen or red feet"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 67,
+  "fields": {
+    "name": "Swollen abdomen"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 68,
+  "fields": {
+    "name": "Scratching"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 69,
+  "fields": {
+    "name": "Flaky skin"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 70,
+  "fields": {
+    "name": "Tilting head or body"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 71,
+  "fields": {
+    "name": "Dragging feet"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 72,
+  "fields": {
+    "name": "Blood in poo"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 73,
+  "fields": {
+    "name": "Pain when poo"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 74,
+  "fields": {
+    "name": "Pain when pee"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 75,
+  "fields": {
+    "name": "Lump"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 76,
+  "fields": {
+    "name": "Open wound"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 77,
+  "fields": {
+    "name": "Discharge from ear"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 78,
+  "fields": {
+    "name": "Weight loss"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 79,
+  "fields": {
+    "name": "Hiding"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 80,
+  "fields": {
+    "name": "Wheezing"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 81,
+  "fields": {
+    "name": "Liquid from nipples"
+  }
+},
+{
+  "model": "checker.symptom",
+  "pk": 82,
+  "fields": {
+    "name": "Watery or crusty eyes/eye"
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 1,
+  "fields": {
+    "name": "Upper respiratory infection",
+    "description": "Guinea pigs are highly susceptible to respiratory infections. These infections often occur due to poor hygiene, sudden temperature changes, or exposure to drafts.\r\nPrevent infections by maintaining a clean cage, ensuring proper ventilation ( solid cage panels are not recommended for this reason ), and avoiding temperature extremes. If your guinea pig shows symptoms, consult a vet immediately, as untreated infections can worsen quickly.",
+    "info_link": "https://azeah.com/guinea-pigs/respiratory-infections-guinea-pigs",
+    "symptoms": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      78
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 2,
+  "fields": {
+    "name": "Scurvy (vitamin C deficiency)",
+    "description": "Guinea pigs are susceptible to vitamin C deficiency because they lack an enzyme that is involved in the synthesis of ascorbic acid (vitamin C) from glucose. Without this enzyme, they are dependent on getting all of their vitamin C requirements from their diet. In order to get enough vitamin C, guinea pigs require a daily dietary source of vitamin C. Lack of vitamin C results in a disease called scurvy. Vitamin C is essential for proper bone and collagen formation, blood clotting, and cell function.",
+    "info_link": "https://www.petmd.com/exotic/conditions/cardiovascular/c_ex_gp_vitamin_c_deficiency/p/3",
+    "symptoms": [
+      42,
+      43,
+      44,
+      45,
+      55,
+      64,
+      78
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 3,
+  "fields": {
+    "name": "Teeth problems",
+    "description": "Guinea pigs have open rooted teeth that grow continuously. Unfortunately, this makes them prone to overgrown teeth and malocclusions. While genetics, infection and trauma can make malocclusions more likely, diet is a major reason why guinea pigs often develop malocclusions.",
+    "info_link": "https://kb.rspca.org.au/knowledge-base/what-dental-problems-do-guinea-pigs-get/",
+    "symptoms": [
+      42,
+      48,
+      59,
+      61,
+      63,
+      78
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 4,
+  "fields": {
+    "name": "Bumble-foot",
+    "description": "Pododermatitis, commonly known as bumblefoot, is an inflammatory condition affecting a guinea pig’s feet. It is often caused by dirty cages, rough surfaces, or obesity.",
+    "info_link": "https://www.petmd.com/exotic/conditions/bumblefoot-in-guinea-pigs",
+    "symptoms": [
+      54,
+      55,
+      56
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 5,
+  "fields": {
+    "name": "Obesity",
+    "description": "Obesity is a growing problem for pet guinea pigs. It can lead to many health issues, including joint pain, heart disease, and bumblefoot.",
+    "info_link": "https://www.guineadad.com/blogs/news/what-to-do-when-your-guinea-pig-is-overweight?srsltid=AfmBOopSqy6_Dtp866RSIJlEIVZWhtHe_3iHmDsqSLlRjOXfxbP6w6On",
+    "symptoms": [
+      55,
+      57,
+      58
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 6,
+  "fields": {
+    "name": "Heatstroke",
+    "description": "Heatstroke occurs in animals when their body temperature rises too high. For guinea pigs, a normal body temperature ranges between 102-104°F (39-40°C). Once the temperature starts to go above 78°F (26°C), guinea pigs are at risk of suffering from heatstroke as the increased heat can make their body temperature go higher.",
+    "info_link": "https://kavee.com/blogs/the-piggy-blog/heatstroke-guinea-pigs?srsltid=AfmBOoqmwPC-VjuyvnRcXBhXRhjCkf1_UGrNp0vepIejvB-CdNcSidfi",
+    "symptoms": [
+      40,
+      41,
+      59,
+      60,
+      61
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 7,
+  "fields": {
+    "name": "Gastrointestinal (GI) Stasis",
+    "description": "GI stasis is a serious and potentially fatal condition in guinea pigs where the digestive system slows down or stops completely, causing them to stop eating, pooping, and become lethargic",
+    "info_link": "https://exoticdirect.co.uk/news/gut-stasis-guinea-pigs/",
+    "symptoms": [
+      42,
+      52,
+      60,
+      78,
+      79
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 8,
+  "fields": {
+    "name": "Bladder Stones and Urinary Issues",
+    "description": "Bladder stones, also known as uroliths, are a common problem in guinea pigs. These stones form in the urinary tract and can cause severe pain and difficulty urinating.",
+    "info_link": "https://azeah.com/guinea-pigs/bladder-stones-guinea-pigs",
+    "symptoms": [
+      49,
+      50,
+      51,
+      64,
+      74,
+      79
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 9,
+  "fields": {
+    "name": "Parasites",
+    "description": "Guinea pigs are susceptible to external parasites such as mites, lice, and fleas. These can cause discomfort and lead to more severe skin issues if untreated.",
+    "info_link": "https://www.petmd.com/exotic/slideshows/8-parasites-can-infect-your-small-animal",
+    "symptoms": [
+      45,
+      46,
+      47,
+      48,
+      68,
+      69,
+      76
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 10,
+  "fields": {
+    "name": "Heart disease",
+    "description": "Heart disease occurs relatively frequently in guinea pigs, it can be due to problems with the heart muscle, the heart valves or the pericardium (fibrous sac that surrounds the heart). Once significant clinical signs are apparent we say that the heart disease has progressed to heart failure.",
+    "info_link": "https://www.theguineapigvet.co.uk/post/my-guinea-pig-is-breathing-heavy-let-s-talk-about-heart-disease",
+    "symptoms": [
+      40,
+      41,
+      53,
+      57,
+      59,
+      60,
+      67,
+      80
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 11,
+  "fields": {
+    "name": "Possible Cancer or tumour",
+    "description": "Tumors in guinea pigs are relatively uncommon, but they have been seen in pigs as young as four months. It is more common for tumors to appear after age three. Among older guinea pigs, it’s estimated about 30% will develop tumors.\r\nThe most common sites for tumors in guinea pigs include their lungs, skin, mammary glands, ovaries, uterus, and blood/lymphatic systems. Intestinal, bladder, bone, muscle, adrenal gland, and liver tumors are rare.",
+    "info_link": "https://www.petmd.com/exotic/conditions/skin/c_ex_gp_cancers_tumors",
+    "symptoms": [
+      41,
+      42,
+      57,
+      72,
+      75,
+      76,
+      78
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 12,
+  "fields": {
+    "name": "Abscess",
+    "description": "Abscesses are a result of infection and can form anywhere on a guinea pig’s body.  They start as inflamed areas that are swollen, red, warm, and painful. As they progress, these inflamed areas become filled with pus.",
+    "info_link": "https://www.guineapiggles.co.uk/abscesses/?srsltid=AfmBOopUOw4sAa5WOS4RoQVtTLHM77Kysbc3EbtOcoVrk-4iCmOT8UY5",
+    "symptoms": [
+      43,
+      45,
+      46,
+      47,
+      56,
+      66,
+      75,
+      76
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 13,
+  "fields": {
+    "name": "Stroke",
+    "description": "A guinea pig stroke is a sudden neurological event requiring immediate veterinary attention.",
+    "info_link": "https://www.theguineapigforum.co.uk/threads/aftercare-for-a-guinea-pig-after-a-stroke-part-1.163892/",
+    "symptoms": [
+      40,
+      41,
+      44,
+      55,
+      57,
+      59,
+      60,
+      70
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 14,
+  "fields": {
+    "name": "Uterus or mammary gland tumours",
+    "description": "Uterine and mammary tumors are common in guinea pigs, particularly in older, unspayed females. Uterine tumors can cause abdominal distention and bleeding, while mammary tumors may present as lumps with discharge. Diagnosis involves imaging, and the primary treatment is surgical removal of the affected tissue.",
+    "info_link": "https://www.petmd.com/exotic/conditions/skin/c_ex_gp_cancers_tumors",
+    "symptoms": [
+      41,
+      42,
+      45,
+      53,
+      67,
+      75,
+      76,
+      78,
+      81
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 15,
+  "fields": {
+    "name": "Eye injury/infection",
+    "description": "A guinea pig's eye infection, or conjunctivitis, is often caused by bacteria, allergies, or a foreign object like a piece of hay, and presents with symptoms such as redness, swelling, discharge, and squinting.",
+    "info_link": "https://www.guineapiggles.co.uk/eyes/?srsltid=AfmBOoo1QxZ_DhyjRSRh6XAZR3DRxMh_fTY8u1RX06vfA3whuL8YQRSd",
+    "symptoms": [
+      38,
+      82
+    ]
+  }
+},
+{
+  "model": "checker.disease",
+  "pk": 16,
+  "fields": {
+    "name": "Ear infection",
+    "description": "Guinea pig ear infections can be caused by bacteria or yeast, often spreading from upper respiratory infections, and present with symptoms like head tilting, loss of balance, discharge from the ear, and pain.",
+    "info_link": "https://www.petmd.com/exotic/conditions/ears/c_ex_gp_ear_infections",
+    "symptoms": [
+      46,
+      77
+    ]
+  }
+}
+]
